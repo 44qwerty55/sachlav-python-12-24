@@ -26,3 +26,4 @@ hypotenuse = (side1**2 + side2**2) ** 0.5
 area = (side1 * side2) / 2
 print(f"Hypotenuse = {hypotenuse}")
 print(f"Area = {area}")
+
