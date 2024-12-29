@@ -3,6 +3,7 @@ b = int(input())
 c = int(input())
 
 print(f"(a+b*c) = {(a+b*c)}")
+print(f"(a*b+c) = {(a*b+c)}")
 print(f"(a*(b+c)) = {(a*(b+c))}")
 print(f"(a*b*c) = {(a*b*c)}")
 print(f"((a+b)*c) = {((a+b)*c)}")
