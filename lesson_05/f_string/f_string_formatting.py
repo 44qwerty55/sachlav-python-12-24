@@ -1,10 +1,10 @@
 name = "Alexander"
-surname = "Komanov"
+surname = "komanov"
 age = 36
 
 # formatted_string = "Hello " + name + " " + surname + "! My age is: " + str(age)
 
-formatted_string = f"Hello {name} {surname}! My age is: {age}"
+formatted_string = f"Hello {name.upper()} {surname.capitalize()}! My age next year will be: {age + 1}"
 print(formatted_string)
 
 BASE_URL = "https://www.reqres.in"
